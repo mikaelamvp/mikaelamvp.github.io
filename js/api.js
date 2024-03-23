@@ -1,5 +1,5 @@
 const main = async () => {
-  const results = await fetch('https://api.ipdata.co?api-key=a84a536211b7f8d838608979cbfa046317ca14c1d2f3425dd1db396a');
+  const results = await fetch('https://api.ipdata.co?api-key=75f83747b8315fe0480f67f9aae3d2e24c0dafc248a25d0bbcb3f08e');
   
   // Variable that stores the data as a Json file.
   const data = await results.json();
